@@ -21,12 +21,12 @@ uvloop.install()
 
 ggn = "mongodb+srv://viktor55:Gagan@123@cluster0.4efvr6n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = "22808125" #config("API_ID", default=None, cast=int)
+API_HASH = "406c09543fec722fe3c48ca2f06d78de" #config("API_HASH", default=None)
+BOT_TOKEN = "6382878040:AAEBquyziFlH3sE4qu8sIfZjlDuNAFPqUTY" #config("BOT_TOKEN", default=None)
+SESSION = #config("SESSION", default=None)
+FORCESUB = "N_K_bots" #config("FORCESUB", default=None)
+AUTH = "819861991" #config("AUTH", default=None)
 SUDO_USERS = []
 
 if len(AUTH) != 0:
